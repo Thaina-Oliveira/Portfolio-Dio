@@ -1,0 +1,66 @@
+ul.skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 1rem;
+  margin-top: 0;
+}
+
+.skills li.html::before {
+  content: "";
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/html.png);
+  background-size: contain;
+  background-position: center;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+.skills li.css::before {
+  content: "";
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/css.png);
+  background-size: contain;
+  background-position: center;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+.skills li.bootstrap::before {
+  content: "";
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/bootstrap.svg);
+  background-size: contain;
+  background-position: center;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+.skills li.javascript::before {
+  content: "";
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/js.png);
+  background-size: contain;
+  background-position: center;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  border-radius: 10px;
+}
+.skills li.node::before {
+  content: "";
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/node.png);
+  background-size: contain;
+  background-position: center;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}

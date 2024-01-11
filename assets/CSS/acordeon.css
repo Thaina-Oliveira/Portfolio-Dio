@@ -1,0 +1,63 @@
+.acordeon {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: solid 3px #fff;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  transition: 1s;
+}
+
+.acordeon .trigger {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+}
+.acordeon .trigger:hover {
+  cursor: pointer;
+}
+
+.acordeon.open {
+  background-color: #55569e;
+  border-color: #55569e;
+}
+
+.acordeon:hover {
+  background-color: #55569e;
+  border-color: #55569e;
+}
+
+.acordeon .trigger::after {
+  content: "";
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/Group\ 482289.png);
+  background-position: center;
+  transition: 0.25s;
+}
+
+.acordeon.open .trigger::after {
+  transform: rotate(180deg);
+}
+
+.acordeon .content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+}
+
+.acordeon.open .content {
+  display: block;
+  max-height: 1200px;
+  transition: max-height 0.5s ease;
+}

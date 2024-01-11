@@ -1,0 +1,73 @@
+ul.education {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 1rem;
+  margin-top: 0;
+}
+
+.education li.curso-html::before {
+  content: "";
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/curso-html.webp);
+  background-size: contain;
+  background-position: center;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+.education li.curso-css::before {
+  content: "";
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/curso-css.webp);
+  background-size: contain;
+  background-position: center;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+.education li.curso-logica::before {
+  content: "";
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/curso-logica.webp);
+  background-size: contain;
+  background-position: center;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+.education li.curso-javascript::before {
+  content: "";
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/curso-js.webp);
+  background-size: contain;
+  background-position: center;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+ul li.course-title {
+  text-align: left;
+  flex-wrap: wrap;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 0 1rem;
+  margin-top: 0.5rem;
+}
+
+span.course-description {
+  text-align: left;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  padding: 0 1rem;
+  margin-top: 0.5rem;
+}

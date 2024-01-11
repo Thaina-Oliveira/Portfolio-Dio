@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #fff;
+}
+h1 .name-span {
+  color: #55569e;
+}
+.header-img {
+  padding-bottom: 1rem;
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* typewriter effetc */
+
+.header h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation
+  border-right: 0.2em solid rgb(12, 12, 12); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: 0.10em; Adjust as needed */
+  animation: typing 5.5s steps(60, end), blink-caret 0.75s;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  30% {
+    border-color: rgb(0, 0, 0);
+  }
+}
+
+body {
+  background: #000000;
+}
+main.main {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+div.info p {
+  color: #fff;
+  margin: 0.5rem;
+  word-break: break-word;
+  inline-size: 100%;
+  font-size: 0.9rem;
+}
+
+/* blobs */
+div.blob1 {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transform: rotate(180deg);
+  height: 60vh;
+  width: 50vw;
+  filter: blur(120px);
+  background-size: 100% 100%;
+  background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  background-image: linear-gradient(-45deg, #f5a895 0%, #792fa0ff 99%),
+    linear-gradient(45deg, #fea9aa 0%, #073affff 98%),
+    linear-gradient(456deg, #e197fdff 9%, #e197fdff 95%, #ed07ffff 100%),
+    linear-gradient(45deg, #fb85b9 0%, #b410e7ff 100%);
+}
+
+div.blob2 {
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  transform: rotate(180deg);
+  height: 60vh;
+  width: 50vw;
+  filter: blur(100px);
+  background-size: 100% 100%;
+  background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  background-image: linear-gradient(90deg, #641777 0%, #792fa0ff 99%),
+    linear-gradient(110deg, #e760ca 0%, #073affff 98%),
+    linear-gradient(180deg, rgb(27, 38, 187) 9%, #e197fdff 95%, #ed07ffff 100%),
+    linear-gradient(165deg, #562c8d 0%, #b410e7ff 100%);
+}
+
+.job::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/job.png);
+  background-size: contain;
+  background-position: center;
+  margin-right: 0.5rem;
+}
+.location::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/location.png);
+  background-size: contain;
+  background-position: center;
+  margin-right: 0.5rem;
+}
+.linkedin::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/linkedin.png);
+  background-size: contain;
+  background-position: center;
+  margin-right: 0.5rem;
+}
+.github::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/github.png);
+  background-size: contain;
+  background-position: center;
+  margin-right: 0.5rem;
+}
+.email::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/email.png);
+  background-size: contain;
+  background-position: center;
+  margin-right: 0.5rem;
+}

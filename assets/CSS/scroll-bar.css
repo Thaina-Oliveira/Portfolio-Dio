@@ -1,0 +1,47 @@
+/* Barra de rolagem principal no Chrome/Safari */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Polegar da barra de rolagem no Chrome/Safari */
+::-webkit-scrollbar-thumb {
+  background-color: #55569e;
+  border-radius: 6px;
+}
+
+/* Trilha da barra de rolagem no Chrome/Safari */
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+/* Barra de rolagem principal no Firefox */
+::-moz-scrollbar {
+  width: 12px;
+}
+
+/* Polegar da barra de rolagem no Firefox */
+::-moz-scrollbar-thumb {
+  background-color: #55569e;
+  border-radius: 6px;
+}
+
+/* Trilha da barra de rolagem no Firefox */
+::-moz-scrollbar-track {
+  background-color: black;
+}
+
+/* Barra de rolagem principal no Edge/IE */
+::-ms-scrollbar {
+  width: 12px;
+}
+
+/* Polegar da barra de rolagem no Edge/IE */
+::-ms-scrollbar-thumb {
+  background-color: #55569e;
+  border-radius: 6px;
+}
+
+/* Trilha da barra de rolagem no Edge/IE */
+::-ms-scrollbar-track {
+  background-color: black;
+}

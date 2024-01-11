@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./assets/CSS/global.css" />
+    <link rel="stylesheet" href="./assets/CSS/responsivity.css" />
+    <link rel="stylesheet" href="./assets/CSS/acordeon.css" />
+    <link rel="stylesheet" href="./assets/CSS/languages.css" />
+    <link rel="stylesheet" href="./assets/CSS/skills.css">
+    <link rel="stylesheet" href="./assets/CSS/education.css">
+    <link rel="stylesheet" href="./assets/CSS/scroll-bar.css">
+    <link rel="stylesheet" href="./assets/CSS/job-experience.css">
+    <!-- <link rel="stylesheet" href="./assets/CSS/portfolio.css"> -->
+    <title>Portfólio Dio</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <img
+          src="./assets/img/img.jpg"
+          alt="foto de perfil"
+          class="header-img"
+        />
+
+        <h1 class="title">
+          Olá, <br />
+          eu sou <span class="name-span">Thainá Oliveira</span>
+        </h1>
+
+        <div class="info">
+          <p class="job">Junior Front-end Developer</p>
+          <p class="location">Salto, São Paulo</p>
+          <p class="linkedin">
+            <a href="https://www.linkedin.com/in/thaina-oliveira-goncalves/"
+              >Thainá Oliveira
+            </a>
+          </p>
+          <p class="github">
+            <a href="https://github.com/Thaina-Oliveira">Thainá Oliveira </a>
+          </p>
+          <p class="email">thaina.ogoncalves@outlook.com</p>
+        </div>
+      </header>
+      <div class="blob1"></div>
+      <div class="blob2"></div>
+
+      <section class="acordeon open">
+        <button class="trigger" type="button">Skills</button>
+        <div class="content">
+          <ul class="skills">
+            <li class="html"></li>
+            <li class="css"></li>
+            <li class="bootstrap"></li>
+            <li class="javascript"></li>
+            <li class="node"></li>
+        </div>
+      </section>
+
+      <section class="acordeon open">
+        <button class="trigger" type="button">Idiomas</button>
+        <div class="content">
+          <ul class="languages">
+            <li>Português (BR)</li>
+            <li>Inglês</li>
+            <li>Espanhol</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="acordeon open">
+        <button class="trigger" type="button">Educação</button>
+        <div class="content">
+          <ul class="education">
+            <li class="curso-html"></li>
+            <li class="curso-css"></li>
+            <li class="curso-logica"></li>
+            <li class="curso-javascript"></li>
+
+            <ul>
+              <li class="course-title">Universidade Cruzeiro do Sul - Análise e Desenvolvimento de Sistemas</li>
+              <span class="course-description">Término previsto: Dezembro 2024</span>
+
+              <li class="course-title">The Complete 2024 Web Development Bootcamp</li>
+              <span class="course-description">Em andamento</span>
+            
+    
+              <li class="course-title">The Complete JavaScript Course 2024: From Zero to Expert!</li>
+              <span class="course-description">Em andamento</span>
+            </ul>
+        </div>
+      </section>
+
+      <!-- <section class="acordeon open">
+        <button class="trigger" type="button">Portfólio</button>
+        <div class="content">
+          <ul class="portfolio">
+            <li>
+              <h2 class="title"></h2>
+              <a href="" class="portfolio-link"></a>
+            </li>
+            <li>
+              <span class="title"></span>
+              <a href="" class="portfolio-link"></a>
+            </li><li>
+              <span class="title"></span>
+              <a href="" class="portfolio-link"></a>
+            </li>
+          </ul>
+        </div>
+      </section> -->
+
+      <section class="acordeon open">
+        <button class="trigger" type="button">Experiência Profissional</button>
+        <div class="content">
+          <ul class="job-experience">
+            <li>
+              <h2 class="title">Auxiliar de Laboratório - Hospital HAOC</h2>
+              <span class="duration">Fev 2022 - Abril 2023</span>
+              <!-- <span class="job-description"></span> -->
+            </li>
+            <li>
+              <h2 class="title">Auxiliar de Laboratório - AdvaGen Biotech</h2>
+              <span class="duration">Jan 2021 - Fev 2022</span>
+              <!-- <span class="job-description"></span> -->
+            </li>
+            <li>
+              <h2 class="title">Estágiaria Análises clínicas - CEUNSP</h2>
+              <span class="duration">Jan 2021 - Dez 2021</span>
+              <!-- <span class="job-description"></span> -->
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="./assets/js/acordeon.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+ul.job-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 2rem;
+  margin-top: 0;
+}
+.job-experience h2.title {
+  text-align: left;
+  flex-wrap: wrap;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 0 1rem;
+  margin-top: 0.5rem;
+}
+span.duration {
+  text-align: left;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  padding: 0;
+}
+.job-experience span.duration::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/calendar.png);
+  background-size: contain;
+  background-position: center;
+  margin: 0 0.5rem;
+}

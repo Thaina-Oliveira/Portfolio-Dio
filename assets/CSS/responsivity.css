@@ -1,0 +1,28 @@
+@media only screen and (min-width: 600px) {
+  header.header {
+    display: grid;
+    grid-template-areas:
+      "header-img title"
+      "header-img info";
+  }
+
+  .header .header-img {
+    grid-area: header-img;
+    margin-right: 1.5rem;
+  }
+  .header .title {
+    grid-area: title;
+    margin-bottom: 0.5rem;
+  }
+  .header .info {
+    grid-area: info;
+  }
+
+  main.main {
+    max-width: 1024px;
+    margin: 2rem auto;
+  }
+  div.info p {
+    font-size: 1rem;
+  }
+}
