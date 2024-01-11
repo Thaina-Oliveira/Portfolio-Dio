@@ -7,15 +7,15 @@
 - [🚀 Tecnologias](#tecnologias)
 - [📝 License](#license)
 
-## 🔗 Preview
+## 🔗Preview
 
 <img src="/assets/img/WhatsApp Image 2024-01-11 at 17.36.43.jpeg">
 
-## 💻 Projeto
+## 💻Projeto
 
 Projeto do curso "Publicando Seu Portfólio Profissional no GitHub Pages" do curso de JavaScript da Dio.
 
-##  🚀 Tecnologias
+##  🚀Tecnologias
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
