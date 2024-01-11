@@ -9,7 +9,7 @@
 
 ## 🔗Preview
 
-<img src="/assets/img/WhatsApp Image 2024-01-11 at 17.36.43.jpeg">
+<a href="https://thaina-oliveira.github.io/Portfolio-Dio/"><img src="/assets/img/WhatsApp Image 2024-01-11 at 17.36.43.jpeg"></a>
 
 ## 💻Projeto
 
